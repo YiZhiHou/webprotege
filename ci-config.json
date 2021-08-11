@@ -1,0 +1,15 @@
+{
+  "dockerFile": {
+    "type": "spring-boot-webapi",
+    "sync": false
+  },
+  "gitlabCi": {
+    "type": "common",
+    "sync": true,
+    "version": "default"
+  },
+  "charts": {
+    "type": "spring-boot-webapi",
+    "sync": true
+  }
+}

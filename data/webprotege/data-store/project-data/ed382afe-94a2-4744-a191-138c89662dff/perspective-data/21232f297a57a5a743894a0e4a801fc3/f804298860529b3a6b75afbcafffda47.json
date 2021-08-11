@@ -1,0 +1,19 @@
+{
+  "direction": "ROW",
+  "children": [
+    {
+      "weight": 0.3,
+      "node": {
+        "id": "N-12",
+        "portlet": "portlets.ClassHierarchy"
+      }
+    },
+    {
+      "weight": 0.7,
+      "node": {
+        "id": "N-14",
+        "portlet": "portlets.ChangesByEntity"
+      }
+    }
+  ]
+}

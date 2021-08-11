@@ -1,0 +1,42 @@
+{
+  "direction": "ROW",
+  "children": [
+    {
+      "weight": 0.3,
+      "node": {
+        "id": "N-53",
+        "portlet": "portlets.ClassHierarchy"
+      }
+    },
+    {
+      "weight": 0.5,
+      "node": {
+        "id": "N-55",
+        "portlet": "portlets.ClassEditor",
+        "editor": "详情"
+      }
+    },
+    {
+      "weight": 0.2,
+      "node": {
+        "direction": "COLUMN",
+        "children": [
+          {
+            "weight": 0.6,
+            "node": {
+              "id": "N-57",
+              "portlet": "portlets.Comments"
+            }
+          },
+          {
+            "weight": 0.4,
+            "node": {
+              "id": "N-59",
+              "portlet": "portlets.ProjectFeed"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
